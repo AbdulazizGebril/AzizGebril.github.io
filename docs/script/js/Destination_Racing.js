@@ -3,7 +3,7 @@
 
 // Defining SVG object
 var svg = d3.select("#chart-area").append("svg")
-      .attr("width", 1100)
+      .attr("width", 1200)
       .attr("height", 600);
    
     
@@ -11,7 +11,7 @@ var svg = d3.select("#chart-area").append("svg")
     
     var top_n = 10;
     var height = 600;
-    var width = 1100;
+    var width = 1200;
     
     const margin = {
       top: 80,

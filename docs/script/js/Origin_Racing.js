@@ -3,14 +3,14 @@
 
 // Defining SVG object
 var svg = d3.select("#chart-area").append("svg")
-      .attr("width", 1060)
+      .attr("width", 1200)
       .attr("height", 600);
             
     var tickDuration = 2000;
     
     var top_n = 10;
     var height = 600;
-    var width = 1100;
+    var width = 1200;
     
     const margin = {
       top: 80,
