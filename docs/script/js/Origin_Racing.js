@@ -10,7 +10,7 @@ var svg = d3.select("#chart-area").append("svg")
     
     var top_n = 10;
     var height = 600;
-    var width = 1060;
+    var width = 1100;
     
     const margin = {
       top: 80,
