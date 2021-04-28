@@ -1,5 +1,5 @@
 dataset = {
-    "refunhcr": [{
+    "children": [{
             "Country": "Afghanistan",
             "refugee": 2729148
 
@@ -146,7 +146,7 @@ var node = svg2.selectAll(".node")
     .data(bubble(nodes).descendants())
     .enter()
     .filter(function (d) {
-        return !d.refunhcr
+        return !d.children
     })
     .append("g")
     .on('mouseover', function (d, i) {
