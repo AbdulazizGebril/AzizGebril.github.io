@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+
+<html> 
+<head>  
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="styles/css/bootstrap.css">
+<!--Google chart scripts-->
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="script/js/refugee.js"></script>
+
+
+
+
+</head>  
+<body>
+<!-- Jumbotron header-->
+<div class="jumbotron text-left" style="background-color:#0099ff">
+  <h1>Refugee Migration </h1>
+  <p>Between 1990-2020</p>
+  
+</div>
+
+<!-- navigation bar,  Grey with black text -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Destinations.html">Migration Destinations</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Origin.html">Migration Origins</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Economical.html">Economical Comparison</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Political.html">Refugee Migration</a>
+      </li>
+    </ul>
+  </nav>
+  <br>
+  <div class="row">
+    <div class="col-sm-8">
+  <div class="ml-3">
+    <!--Refugee origins bubble chart-->
+    <h4>Top Refugee Origins</h4>
+    <p> According to UNHCR, Humanitarian crisis and poltical uurests caused the migration and forced displacement of more than 26 Million refugee by the year 2020. The bubble chart below shows the top refugee origins. More than 60% of refugees under the UNHCR's mandate originate from five countries. These countries are Syria, Venezuela, Afghanistan, South Sudan and Myanmar. unfortunately, these countirs went through major poltical unrests or harsh economic crises. </p><br>
+  <div id="bubble"></div>
+</div>
+<!-- Refugee destinations bar chart-->
+<div class="ml-3"> 
+  <h4> Top Refugee Destinations</h4>
+  <p> Around 86% of the refugees under the UNHCR's mandate are hosted in developing countries. In addition, 39% of refugees are hosted by five countries, These countries are Turkey, Colombia, Uganda, Pakistan and Germany. One observation is the close distance of proximty of those five countries with the Top refugee origins countries.</p>
+  <div id="refugee_destination" style="width: 1100px; height:800px;"></div>
+</div>
+</div>
+</div>
+<!-- Scripts for bubble chart-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.min.js"></script>
+<script type="text/javascript" src="script/js/bubble.js"></script>
+ 
+
+
+  
+</body>
+<!-- footer -->
+<div class="jumbotron text-center" style="background-color:#0099ff">
+<p>Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script>
+    | Abdulaziz Gebril |</p>
+</div>
+
+
+</html>
