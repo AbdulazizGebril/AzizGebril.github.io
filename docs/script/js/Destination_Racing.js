@@ -3,7 +3,7 @@
 
 // Defining SVG object
 var svg = d3.select("#chart-area").append("svg")
-      .attr("width", 1200)
+      .attr("width", 1300)
       .attr("height", 600);
    
     
